@@ -43,33 +43,33 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 ## 单用户配置文件：
 ### 配置文件路径：/etc/shadowsocks.json
 
-> {
-    "server":"0.0.0.0",
-    "server_port":8989,
-    "local_address":"127.0.0.1",
-    "local_port":1080,
-    "password":"yourpassword",
-    "timeout":300,
-    "method":"aes-256-cfb",
-    "fast_open": false
+> {  
+    "server":"0.0.0.0",  
+    "server_port":8989,  
+    "local_address":"127.0.0.1",  
+    "local_port":1080,  
+    "password":"yourpassword",  
+    "timeout":300,  
+    "method":"aes-256-cfb",  
+    "fast_open": false  
   }
 
 
 ## 多用户多端口配置文
 ### 配置文件路径：/etc/shadowsocks.json
 
-> {
-    "server":"0.0.0.0",
-    "local_address":"127.0.0.1",
-    "local_port":1080,
-    "port_password":{
-         "8989":"password0",
-         "9001":"password1",
-         "9002":"password2",
-         "9003":"password3",
-         "9004":"password4"
-    },
-    "timeout":300,
-    "method":"aes-256-cfb",
-    "fast_open": false
-  }
+> {  
+    "server":"0.0.0.0",  
+    "local_address":"127.0.0.1",  
+    "local_port":1080,  
+    "port_password":{  
+         "8989":"password0",  
+         "9001":"password1",  
+         "9002":"password2",  
+         "9003":"password3",  
+         "9004":"password4"  
+    },  
+    "timeout":300,  
+    "method":"aes-256-cfb",  
+    "fast_open": false  
+  }  
