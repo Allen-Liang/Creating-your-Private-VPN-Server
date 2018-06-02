@@ -91,5 +91,5 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
     "fast_open": false  
   }  
 
-# Youtube googel 类似视频
+# Youtube google 类似视频
 [Google Free VPS for VPN ](https://www.youtube.com/watch?v=xrbviAfagrU&t=681s)
