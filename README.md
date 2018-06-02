@@ -1,3 +1,20 @@
+# 配置AWS服务器
+按步骤配置，特别是在安全组内开放你需要的端口及协议（TCP,UDP），下载pem文件。
+
+# mac link to aws
+1.下载AWS私钥xxxx.pem  
+2. chmod 400 xxxx.pem  
+3. ssh -i xxxxx.pem user_name@public_dns_name  
+4. 初次修改服务器root密码命令：sudo passwd  
+
+# windows link to aws
+1.下载AWS私钥xxxx.pem  
+2.使用puttygen工具将pem转换成ppk文件，生成适合PuTTY使用的私钥  
+3.在Putty中的主机名框中输入：user_name@public_dns_name ,SSH端口：22  
+4.putty软件中SSH加载ppk私钥，保存并连接  
+5.初次修改服务器root密码命令：sudo passwd  
+
+
 # Shadowsocks Python版一键安装脚本
 ## 本脚本适用环境:  
 系统支持：CentOS 6，7，Debian，Ubuntu  
@@ -73,3 +90,6 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
     "method":"aes-256-cfb",  
     "fast_open": false  
   }  
+
+# Youtube googel 类似视频
+[Google Free VPS for VPN ](https://www.youtube.com/watch?v=xrbviAfagrU&t=681s)
